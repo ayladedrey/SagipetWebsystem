@@ -1,20 +1,61 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+  <ion-header collapse="fade">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <img src="../../assets/img/logo.jpg" style="height: 50px; margin-right: 8px; margin-bottom: 8px;">
+          </ion-col>
+
+          <div class="toolbarbutton">
+            <ion-col>
+              <ion-button routerLink shape="default" fill="clear">Home</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button routerLink shape="default" fill="clear">About</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button routerLink shape="default" fill="clear">What We Are</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button shape="default" fill="clear">What We Do</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button shape="default" fill="clear">What You Can Do</ion-button>
+           </ion-col>
+           <ion-col>
+            <ion-button shape="default" fill="clear">Donate</ion-button>
+         </ion-col>
+           <ion-col>
+            <ion-button routerLink="/petspage" shape="default" fill="clear">Login</ion-button>
+         </ion-col>
+          </div>
+        </ion-row>
+      </ion-grid>
+
     </ion-toolbar>
   </ion-header>
+</ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+          <div class="container">
+            <div class="content-wrapper">
+              <div class="card-wrapper">
+                  <ion-card-content>
+                    <h3>Shelter pets are not broken, just looking for love.</h3>
+                    <h1>We care for Pets</h1>
+                    <h1><span>Dont Shop,</span> Just Adopt</h1>
+                    <br><br>
+
+                    <div class="learnbutton">
+                    <ion-button shape="round" fill="outline">Learn More</ion-button>
+                    </div>
+                  </ion-card-content>
+              </div>
+            </div>
+          </div>
+
+          <div class="about">
+            <h3>image</h3>
+          </div>
 </ion-content>
